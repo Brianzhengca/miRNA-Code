@@ -44,8 +44,8 @@ from keras.utils import to_categorical
 from keras.optimizers import SGD
 from imblearn.over_sampling import SMOTE
 
-design_matrix = "colorectaltobreastdesign"
-exp_matrix = "colorectaltobreastexp"
+design_matrix = "colorectaltoalldesign"
+exp_matrix = "colorectaltoallexp"
 cv = KFold(n_splits=10, random_state=1, shuffle=True)
 skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=1)
 
