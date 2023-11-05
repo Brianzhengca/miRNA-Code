@@ -94,7 +94,7 @@ def pred_unique():
     exp = pd.read_csv(exp_matrix, sep="\t", index_col=0)
 
     matrix = []
-    gene_list = [line.rstrip() for line in open('sig_genes_extended')]
+    gene_list = [line.rstrip() for line in open('mirna_feature')]
 
     matrix.append(design["colorectal cancer"].tolist())
 
