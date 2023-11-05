@@ -7,4 +7,4 @@ This project is the source code for identifying three prognostic and diagnostic 
 
 **linreg.py**: Linear regression t-test to Find miRNAs that are expressed at different levels across stages. 
 
-**logisticregressioncode.py**: Code for Logistic Regression Classifier, the sig_genes_extended file contacts the name of the miRNA that is used as the sole feature for the classifier. This file also graphs the ROC curves for the classifier. It requires a design and expression matrix, both of which are available upon request. 
+**logisticregressioncode.py**: Code for Logistic Regression Classifier, the mirna_feature file contacts the name of the miRNA that is used as the sole feature for the classifier. This file also graphs the ROC curves for the classifier. It requires a design and expression matrix, both of which are available upon request. 
